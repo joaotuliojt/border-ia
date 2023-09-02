@@ -1,20 +1,66 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    content: [
+        "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+        "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+        "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    ],
+    theme: {
+        extend: {
+            colors: {
+                "indigo-01": "#F3F2FF",
+                "indigo-02": "#E8E8FF",
+                "indigo-03": "#D4D5FF",
+                "indigo-04": "#B4B1FF",
+                "indigo-05": "#8E85FF",
+                "indigo-06": "#7A67FF",
+                "indigo-07": "#5530F7",
+                "indigo-08": "#481EE3",
+                "indigo-09": "#3B18BF",
+                "indigo-10": "#32169C",
+                "indigo-11": "#1C0B6A",
+                "purple-01": "#FAF5FF",
+                "purple-02": "#F3E7FF",
+                "purple-03": "#E9D4FF",
+                "purple-04": "#D8B2FF",
+                "purple-05": "#C082FF",
+                "purple-06": "#A751FB",
+                "purple-07": "#922EEF",
+                "purple-08": "#7D1ED2",
+                "purple-09": "#6A1EAB",
+                "purple-10": "#58198A",
+                "purple-11": "#3B0566",
+                "gray-01": "#FAFAFA",
+                "gray-02": "#F4F4F5",
+                "gray-03": "#E4E4E7",
+                "gray-04": "#D4D4D8",
+                "gray-05": "#A1A1AA",
+                "gray-06": "#71717A",
+                "gray-07": "#52525B",
+                "gray-08": "#3F3F46",
+                "gray-09": "#27272A",
+                "gray-10": "#18181B",
+                "gray-11": "#09090B",
+            },
+            fontSize: {
+                "heading-h1": "4rem",
+                "heading-h2": "3.5rem",
+                "heading-h3": "3rem",
+                "heading-h4": "2.5rem",
+                "heading-h5": "2rem",
+                "heading-h6": "1.5rem",
+                "heading-h7": "1.125rem",
+                "heading-h8": "1rem",
+                "heading-h9": "0.875rem",
+                "text-14": "0.875rem",
+                "text-16": "1rem",
+                "text-18": "1.125rem",
+                "text-20": "1.25rem",
+                tag: "1rem",
+            },
+        },
     },
-  },
-  plugins: [],
-}
-export default config
+    plugins: [],
+};
+export default config;
