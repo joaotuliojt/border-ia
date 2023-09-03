@@ -1,7 +1,9 @@
+import { Navbar } from "@/components/Navbar";
+
 export default function Home() {
     return (
-        <div>
-            <h1>Hello World</h1>
-        </div>
+        <main className="bg-gray-11 min-h-screen">
+            <Navbar />
+        </main>
     );
 }

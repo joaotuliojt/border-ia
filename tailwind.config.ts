@@ -42,6 +42,8 @@ const config: Config = {
                 "gray-09": "#27272A",
                 "gray-10": "#18181B",
                 "gray-11": "#09090B",
+                "gradient-1": "#C082FF",
+                "gradient-2": "#7967FF",
             },
             fontSize: {
                 "heading-h1": "4rem",
