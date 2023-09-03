@@ -1,9 +1,15 @@
-import { Navbar } from "@/components/Navbar";
+import { About } from "@/components/About";
+import { Banner } from "@/components/Banner";
+import { Footer } from "@/components/Footer";
+import { Resources } from "@/components/Resources";
 
 export default function Home() {
     return (
-        <main className="bg-gray-11 min-h-screen">
-            <Navbar />
-        </main>
+        <>
+            <About />
+            <Resources />
+            <Banner />
+            <Footer />
+        </>
     );
 }

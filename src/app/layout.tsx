@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
@@ -20,7 +21,14 @@ export default function RootLayout({
             <head>
                 <link rel="icon" href="/logo.svg" sizes="any" />
             </head>
-            <body className={spaceGrotesk.className}>{children}</body>
+            <body className={spaceGrotesk.className}>
+                <main className="bg-gray-11 ">
+                    <Navbar />
+                    <div className="w-full max-w-[1216px] mx-auto text-white sm:px-8 xs:px-0">
+                        {children}
+                    </div>
+                </main>
+            </body>
         </html>
     );
 }

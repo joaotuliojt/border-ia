@@ -61,6 +61,9 @@ const config: Config = {
                 "text-20": "1.25rem",
                 tag: "1rem",
             },
+            backgroundImage: {
+                "dot-grid": "url('/assets/dot-grid-effect-cube.svg')",
+            },
         },
     },
     plugins: [],
