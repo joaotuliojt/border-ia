@@ -21,10 +21,10 @@ export default function RootLayout({
             <head>
                 <link rel="icon" href="/logo.svg" sizes="any" />
             </head>
-            <body className={spaceGrotesk.className}>
+            <body className={`${spaceGrotesk.className} overflow-x-hidden`}>
                 <main className="bg-gray-11 ">
                     <Navbar />
-                    <div className="w-full max-w-[1216px] mx-auto text-white sm:px-8 xs:px-0">
+                    <div className="w-full max-w-[1216px] mx-auto text-white px-8 xl:px-0">
                         {children}
                     </div>
                 </main>

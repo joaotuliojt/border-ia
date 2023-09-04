@@ -29,14 +29,17 @@ export function Resources() {
         <section className="mt-36">
             <div className="flex justify-center items-center flex-col gap-6">
                 <Tag label="Recursos" />
-                <h2 className="text-heading-h3 text-center max-w-[604px] font-medium">
+                <h2 className="md:text-heading-h3 text-heading-h5 text-center max-w-[604px] font-medium">
                     Como o Border-IA te{" "}
                     <label className="text-gray-05">ajuda no dia a dia</label>
                 </h2>
             </div>
-            <div className="flex mt-20 gap-8">
+            <div className="flex mt-6 md:mt-20 gap-8 flex-col md:flex-row items-center">
                 {Cards.map((card) => (
-                    <div className="flex flex-col gap-4" key={card.title}>
+                    <div
+                        className="flex flex-col gap-4 items-center md:items-start"
+                        key={card.title}
+                    >
                         <div className="bg-gray-10 w-12 h-12 flex items-center justify-center rounded-[4px] border-[1px] border-gray-09">
                             <Image
                                 src={card.iconPath}
@@ -45,10 +48,10 @@ export function Resources() {
                                 height={32}
                             />
                         </div>
-                        <h3 className="text-heading-h6 text-gray-02 max-w-[180px]">
+                        <h3 className="text-heading-h6 text-gray-02 md:max-w-[180px] md:text-left text-center">
                             {card.title}
                         </h3>
-                        <p className="text-text-16 text-gray-06">
+                        <p className="text-text-16 text-gray-06 md:text-left text-center">
                             {card.description}
                         </p>
                     </div>

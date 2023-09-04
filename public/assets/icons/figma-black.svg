@@ -1,0 +1,14 @@
+<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="FigmaLogo" clip-path="url(#clip0_329_17)">
+<path id="Vector" d="M15.5 15C17.1569 15 18.5 13.6569 18.5 12C18.5 10.3431 17.1569 9 15.5 9C13.8431 9 12.5 10.3431 12.5 12C12.5 13.6569 13.8431 15 15.5 15Z" stroke="#09090B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M12.5 9H15.5C16.2956 9 17.0587 8.68393 17.6213 8.12132C18.1839 7.55871 18.5 6.79565 18.5 6C18.5 5.20435 18.1839 4.44129 17.6213 3.87868C17.0587 3.31607 16.2956 3 15.5 3H12.5" stroke="#09090B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M12.5 3H8.75C7.95435 3 7.19129 3.31607 6.62868 3.87868C6.06607 4.44129 5.75 5.20435 5.75 6C5.75 6.79565 6.06607 7.55871 6.62868 8.12132C7.19129 8.68393 7.95435 9 8.75 9H12.5V3Z" stroke="#09090B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M12.5 9H8.75C7.95435 9 7.19129 9.31607 6.62868 9.87868C6.06607 10.4413 5.75 11.2044 5.75 12C5.75 12.7956 6.06607 13.5587 6.62868 14.1213C7.19129 14.6839 7.95435 15 8.75 15H12.5V9Z" stroke="#09090B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M12.5 15H9.125C8.45749 15 7.80497 15.1979 7.24995 15.5688C6.69494 15.9396 6.26235 16.4667 6.00691 17.0834C5.75146 17.7001 5.68463 18.3787 5.81485 19.0334C5.94508 19.6881 6.26651 20.2895 6.73852 20.7615C7.21052 21.2335 7.81189 21.5549 8.46657 21.6852C9.12126 21.8154 9.79986 21.7485 10.4166 21.4931C11.0333 21.2376 11.5604 20.8051 11.9312 20.2501C12.3021 19.695 12.5 19.0425 12.5 18.375V15Z" stroke="#09090B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_329_17">
+<rect width="24" height="24" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg>
