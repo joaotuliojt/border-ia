@@ -21,7 +21,7 @@ Uma landing page de um plugin de Figma chamado Border-IA, que utiliza inteligên
 git clone https://github.com/joaotuliojt/border-ia
 
 //Acesse o arquivo clonado
-cd churras-trinca
+cd border-ia
 
 //Instale as dependências
 npm install ou yarn
